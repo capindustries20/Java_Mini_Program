@@ -17,6 +17,6 @@ public class FindFirstNonReapeatString {
 
 
     public static void main(String[] args) {
-        System.out.println(firstUniqueChar("HHeelloWWorrld"));
+        System.out.println(firstUniqueChar("HHeelloWorrldd"));
     }
 }

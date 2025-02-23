@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.*;
 
-public class Main {
+public class Count_Head {
     public static int fact(int n) {
         if (n == 0)
             return 1;
@@ -13,7 +13,7 @@ public class Main {
     {
         double res;
         res = fact(n) / (fact(r) * fact(n - r));
-        res = res / (Math.pow(2,n));
+        res = res / (Math.pow(2, n));
         return res;
     }
 
